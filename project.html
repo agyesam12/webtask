@@ -1,46 +1,88 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head><title>
-        My First WebPage
-                                       </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First WebPage</title>
+    <style>
+        body {
+            background-color: #FA511E;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .content img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-    <body style="background-color: rgb(250, 81, 30) ;">
-        <a href="index.html">Home</a> <a href="about.html">About</a> <a href="project.html">Project</a> <a href="gallery.html">Gallery</a> <a href="https://www.freecodecamp.org/sammykeys" >FreeCodeCamp</a>
-        <h1>MY FREE CODE CAMP EXPERIENCE</h1> <h2>  It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months</h2>
-   It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-   It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-   It's is has been <img style="width:360px;" src="secondimage.webp"alt="first image">very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-
-   <h2> It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months</h2>
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    <img src="firstimage.jpeg"alt="first image"> <br>  <br>
-   <h2> It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months</h2>
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
- 
- <img style="width:360px;" src="thirdimage.jpg"alt="first image"><br>
- <br>
- <ul>
-    <li>Jarvis (FULL STACK DEVELOPER)</li>
-    <li>Youtube (MOSH HAMEDANI, DESPHIX,DENNIS IVY)</li>
-    <li>Solo Learn</li>
-    <li>W3 schools</li>
- </ul>      
- 
-       
-       
-       
- 
+<body>
+    <header>
+        <h1>My FreeCodeCamp Experience</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Project</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="https://www.freecodecamp.org/sammykeys">FreeCodeCamp</a>
+    </nav>
+    <div class="content">
+        <h2>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</h2>
+        <p>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</p>
+        <img src="secondimage.webp" alt="Second image">
+        <p>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</p>
+        <img src="firstimage.jpeg" alt="First image">
+        <p>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</p>
+        <img src="thirdimage.jpg" alt="Third image">
+        <ul>
+            <li>Jarvis (FULL STACK DEVELOPER)</li>
+            <li>YouTube (Mosh Hamedani, Desphix, Dennis Ivy)</li>
+            <li>Solo Learn</li>
+            <li>W3 Schools</li>
+        </ul>
+    </div>
+</body>
 </html>
