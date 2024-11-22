@@ -1,70 +1,138 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head><title>
-        My First WebPage
-                                       </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
-</head>
-    <body>
-        <a href="index.html">Home</a> <a href="about.html">About</a> <a href="project.html">Project</a> <a href="gallery.html">Gallery</a> <a href="https://www.freecodecamp.org/sammykeys" >FreeCodeCamp</a>
-        <h1>MY FREE CODE CAMP EXPERIENCE</h1> <h2>  It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months</h2>
-   It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-   It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-   It's is has been <img style="width:360px;" src="secondimage.webp"alt="first image">very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First WebPage</title>
+    <style>
+        body {
+    background-color: #FA511E;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
-   <h2> It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months</h2>
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    <img src="firstimage.jpeg"alt="first image"> <br>  <br>
-   <h2> It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months</h2>
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-     It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
-    It's is has been very interesting, learning html,css,javascript,python,django,djangorestframework,react,c++,sql,AWS,in one year six months
- 
- <img style="width:360px;" src="thirdimage.jpg"alt="first image"><br>
- <br>
- <ul>
-    <li>Jarvis (FULL STACK DEVELOPER)</li>
-    <li>Youtube (MOSH HAMEDANI, DESPHIX,DENNIS IVY)</li>
-    <li>Solo Learn</li>
-    <li>W3 schools</li>
- </ul>  
- <div style="margin-top: 50px;">
-    <h2 style="color:white">Students </h2>
-    <table>
-        <tr>
-            <th>Student Id</th>
-            <th>Student Name</th>
-        </tr>
-        <tr>
-            <td>Agyemang Samuel</td>
-            <td>1693571049</td>
-            
-        </tr>
-        <tr>
-            <th>Student Id</th>
-            <th>Student Name</th>
-        </tr>
-        <br>
-        <br>
-        <tr>
-            <td>Crabbe Samuel</td>
-            <td>1705138700</td>
-        </tr>
-    </table>
- </div>    
- 
-       
-       
-       
- 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.intro, .resources, .students {
+    margin-bottom: 20px;
+}
+
+.intro img, .resources img, .students img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="https://www.freecodecamp.org/sammykeys">FreeCodeCamp</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>My FreeCodeCamp Experience</h1>
+            <h2>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</h2>
+            <p>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</p>
+            <img src="secondimage.webp" alt="Second image">
+            <p>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</p>
+            <img src="firstimage.jpeg" alt="First image">
+            <p>It's been very interesting, learning HTML, CSS, JavaScript, Python, Django, Django REST Framework, React, C++, SQL, AWS, in one year six months</p>
+            <img src="thirdimage.jpg" alt="Third image">
+        </section>
+        <section class="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li>Jarvis (FULL STACK DEVELOPER)</li>
+                <li>YouTube (Mosh Hamedani, Desphix, Dennis Ivy)</li>
+                <li>Solo Learn</li>
+                <li>W3 Schools</li>
+            </ul>
+        </section>
+        <section class="students">
+            <h2>Students</h2>
+            <table>
+                <tr>
+                    <th>Student Id</th>
+                    <th>Student Name</th>
+                </tr>
+                <tr>
+                    <td>1693571049</td>
+                    <td>Agyemang Samuel</td>
+                </tr>
+                <tr>
+                    <td>Crabbe Samuel</td>
+             <td>1705138700</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
 </html>
